@@ -1,0 +1,1 @@
+const fs=require('fs'); const path=require('path'); const AdmZip=require('adm-zip'); const out=path.join(process.cwd(),'public'); fs.rmSync(out,{recursive:true,force:true}); fs.mkdirSync(out,{recursive:true}); new AdmZip('LENAXIS_SITE_V7.zip').extractAllTo(out,true); console.log('LENAXIS site extracted to public/');
