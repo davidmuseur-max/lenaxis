@@ -1,6 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "public",
-  "cleanUrls": false,
-  "trailingSlash": false
+  "installCommand": "echo skip-install",
+  "buildCommand": "rm -rf public && mkdir -p public && unzip -q LENAXIS_SITE_V7.zip -d public",
+  "outputDirectory": "public"
 }
