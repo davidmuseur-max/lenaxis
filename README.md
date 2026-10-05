@@ -1,3 +1,3 @@
-# LENAXIS site V8
+# LENAXIS site V9
 
-Version statique autonome modernisée. Déploiement direct Vercel, sans build npm/Vite.
+Version statique autonome premium. Déploiement direct Vercel, sans build npm/Vite.
