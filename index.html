@@ -122,6 +122,124 @@ body,.hero,.module-strip,.bottom-line{color:var(--v10-text)}
 @media(max-width:1180px){.capability-stack-v10{left:12px;top:18px;width:220px;transform:scale(.86);transform-origin:top left}}
 @media(max-width:760px){.capability-stack-v10{display:none}.lena-mark{width:58px!important;height:58px!important}.hero-copy .baseline-v10{font-size:16px;margin-bottom:20px}.solutions-dropdown{left:auto;right:0;width:280px}}
 
+
+/* ===== LENAXIS — REFERENCE DEFINITIVE 05-10-2026 ===== */
+:root{--def-ink:#17191c;--def-copy:#25282c;--def-blue:#0d2e59}
+
+/* Header: full-width clean bar as on the validated image */
+header{
+  top:0!important;margin:0!important;width:100%!important;border:0!important;border-radius:0!important;
+  background:rgba(255,253,249,.96)!important;box-shadow:none!important;
+  backdrop-filter:blur(10px)!important;-webkit-backdrop-filter:blur(10px)!important
+}
+header.scrolled{background:rgba(255,253,249,.98)!important;box-shadow:0 7px 24px rgba(47,38,29,.055)!important}
+.nav{min-height:78px!important}
+.brand img{height:56px!important;width:auto!important}
+.menu a,.solutions-trigger,.lang{color:var(--def-ink)!important}
+.btn-dark{background:#111214!important;color:#fff!important}
+
+/* Everything editorial stays black / anthracite */
+.hero-copy,.hero-copy h1,.hero-copy .tagline,.hero-copy .desc,
+.baseline-v10,.definitive-kicker,.module-name,.module-sub,.module-desc,
+.lena-brand strong,.lena-brand span,.chip,.bottom-label,.bottom-tags,
+.section h2,.section h3,.section p{color:var(--def-ink)!important}
+.hero-copy .desc{color:#25282c!important}
+.module-desc,.module-sub,.lena-brand span{color:#2d3237!important}
+
+/* Preserve the definitive hierarchy */
+.hero{grid-template-columns:.39fr .61fr!important;min-height:570px!important;padding:25px 0 8px!important}
+.hero-copy{padding:0 8px 24px 10px!important}
+.definitive-kicker{
+  display:block!important;margin:0 0 20px!important;font-size:11px!important;line-height:1!important;
+  letter-spacing:.26em!important;font-weight:760!important;color:#17335a!important
+}
+.baseline-v10{
+  margin:0 0 27px!important;padding-bottom:14px!important;font-size:clamp(18px,1.48vw,23px)!important;
+  line-height:1.15!important;font-weight:780!important;letter-spacing:-.018em!important
+}
+.baseline-v10:after{background:#153e78!important;width:45px!important;height:3px!important}
+.hero h1{font-size:clamp(48px,4.2vw,72px)!important;line-height:.96!important;margin-bottom:20px!important;color:#111214!important}
+.tagline{font-size:22px!important;font-weight:730!important;color:#17191c!important}
+.desc{font-size:15.5px!important;line-height:1.48!important}
+
+/* Factory area untouched visually, only lock proportions */
+.hero-art{height:555px!important;margin-right:-2.5vw!important}
+.hero-art-inner{border-radius:0!important;box-shadow:none!important;border:0!important;background:transparent!important}
+.hero-art-inner:hover{box-shadow:none!important}
+.hero-art-inner>img{object-fit:contain!important;object-position:right center!important;filter:saturate(.98) contrast(.99)!important}
+
+/* Functional vocabulary stack */
+.capability-stack-v10{left:-72px!important;top:21px!important;width:246px!important;gap:8px!important}
+.cap-v10{grid-template-columns:54px 1fr!important;gap:10px!important;font-size:10px!important;color:#151719!important}
+.cap-v10 .cap-icon{
+  width:54px!important;height:54px!important;background:rgba(255,253,249,.94)!important;
+  color:#121416!important;border:1px solid rgba(45,51,55,.07)!important;box-shadow:0 6px 18px rgba(66,52,37,.055)!important
+}
+.cap-v10 b{font-weight:800!important;color:#16191b!important}
+
+/* LÉNA: submerged into the same ivory/factory atmosphere, no detached white strip */
+.lena-band{
+  width:min(1320px,calc(100% - 70px))!important;margin:-19px auto 10px!important;padding:12px 18px!important;
+  background:rgba(255,250,243,.24)!important;border:0!important;box-shadow:none!important;
+  backdrop-filter:blur(2px)!important;-webkit-backdrop-filter:blur(2px)!important;border-radius:20px!important
+}
+.lena-band:hover{transform:none!important;box-shadow:none!important;border-color:transparent!important}
+.lena-grid{grid-template-columns:292px 1fr!important;gap:20px!important;padding:0!important}
+.lena-brand{padding-right:16px!important;border-right:1px solid rgba(35,40,44,.12)!important}
+.lena-brand strong{font-size:21px!important;font-weight:820!important}
+.lena-brand span{font-size:12.5px!important}
+
+/* Rose-gold outlined star exactly in spirit of the definitive reference */
+.lena-mark{
+  width:74px!important;height:74px!important;flex:0 0 74px!important;position:relative!important;
+  background:transparent!important;border:none!important;box-shadow:none!important;filter:none!important;
+  clip-path:none!important
+}
+.lena-mark:before{
+  content:""!important;position:absolute!important;inset:2px!important;
+  background:linear-gradient(145deg,#fff8e8 2%,#ffd29d 17%,#da7a55 39%,#9c3f31 58%,#efaa68 77%,#fff3ce 97%)!important;
+  clip-path:polygon(50% 0%,61% 34%,98% 38%,69% 59%,79% 96%,50% 73%,21% 96%,31% 59%,2% 38%,39% 34%)!important;
+  transform:none!important;border-radius:0!important;
+  filter:drop-shadow(0 0 2px rgba(255,239,204,.95)) drop-shadow(0 4px 4px rgba(117,53,37,.22))
+}
+.lena-mark:after{
+  content:""!important;display:block!important;position:absolute!important;inset:9px!important;
+  background:#fff5df!important;
+  clip-path:polygon(50% 0%,61% 34%,98% 38%,69% 59%,79% 96%,50% 73%,21% 96%,31% 59%,2% 38%,39% 34%)!important;
+  transform:none!important;border-radius:0!important;
+  box-shadow:inset 0 0 16px rgba(239,151,93,.55)!important
+}
+.lena-input{
+  height:42px!important;border-radius:13px!important;background:rgba(255,255,255,.91)!important;
+  border:1px solid rgba(53,60,65,.12)!important;box-shadow:none!important
+}
+.send{background:#111214!important;color:#fff!important;width:38px!important;height:38px!important}
+.chip{background:rgba(255,255,255,.83)!important;color:#181b1e!important}
+
+/* Cards exactly kept, only text palette locked */
+.module-strip{padding-top:0!important}
+.module-card{background:rgba(255,253,249,.83)!important}
+.module-name{font-weight:820!important}
+.module-arrow{color:#16191b!important}
+
+/* Trust row stays visually light */
+.bottom-line{background:transparent!important}
+.bottom-label,.bottom-tags{color:#1b2f4a!important}
+
+/* remove V9 decorative elements that do not belong to the definitive visual */
+.hero-copy:before,.hero-art-inner:after,.module-card:after,#scrollProgress{display:none!important}
+
+@media(max-width:1180px){
+ .capability-stack-v10{left:6px!important;top:16px!important;transform:scale(.84)!important}
+}
+@media(max-width:760px){
+ header{position:sticky!important}
+ .brand img{height:42px!important}
+ .definitive-kicker{font-size:9px!important;letter-spacing:.18em!important}
+ .lena-mark{width:56px!important;height:56px!important;flex-basis:56px!important}
+ .lena-grid{grid-template-columns:1fr!important}
+}
+
 </style></head><body><div class="intro" id="intro"><video id="introVideo" muted autoplay playsinline preload="metadata" poster="/assets/intro_frame_5.jpg"><source src="https://www.dropbox.com/scl/fi/45sbxwk9uftuwg2oh4cm2/Lenaxis-FR.mp4?rlkey=rg7ula361gbmitq31qpz9zdyv&raw=1" type="video/mp4"></video><div class="intro-fallback"></div><button id="skipIntro" class="intro-skip">Passer</button></div><div class="site" id="site"><header><div class="container nav"><a class="brand" href="index.html"><img src="https://www.dropbox.com/scl/fi/ijjfiy2el5xtbjjgni5m3/Lenaxis_LOGO.png?rlkey=ema5wb238vmw02y63vb8pfxp4&raw=1" alt="LENAXIS"></a><nav class="menu"><div class="solutions-menu"><button class="solutions-trigger" type="button">Solutions <span>⌄</span></button><div class="solutions-dropdown">
 <a href="core.html"><strong>CORE</strong><small>Cartographiez vos risques</small></a>
 <a href="watch.html"><strong>WATCH</strong><small>Détectez et anticipez</small></a>
@@ -129,7 +247,7 @@ body,.hero,.module-strip,.bottom-line{color:var(--v10-text)}
 <a href="crisis.html"><strong>CRISIS</strong><small>Préparez et gérez</small></a>
 <a href="lena.html"><strong>Application LÉNA</strong><small>Interrogez votre contexte de risque</small></a>
 </div></div><a href="index.html#secteurs">Industries</a><a href="index.html#ressources">Ressources</a><a href="index.html#apropos">À propos</a></nav><div class="nav-actions"><span class="lang">◉&nbsp; FR⌄</span><a class="btn btn-dark" href="index.html#contact">Demander une démo <span class="arrow">→</span></a></div></div></header><main>
-<div class="home"><div class="container"><section class="hero"><div class="hero-copy"><div class="baseline-v10">Sécurisez vos risques. Construisez votre futur.</div><h1><span>Le jumeau numérique</span><span>du risque</span></h1><p class="tagline">Anticipez. Comprenez. Décidez.</p><p class="desc">LENAXIS transforme les données terrain en intelligence du risque pour des opérations plus sûres, plus résilientes et plus performantes.</p><div class="actions"><a class="btn btn-dark" href="#contact">Demander une démo <span class="arrow">→</span></a><button class="btn btn-light" data-open-video>▷&nbsp; Voir la vidéo</button></div></div><div class="hero-art"><div class="capability-stack-v10" aria-label="Fonctionnalités LENAXIS">
+<div class="home"><div class="container"><section class="hero"><div class="hero-copy"><div class="kicker definitive-kicker">DONNÉES &nbsp; × &nbsp; EXPERTISE &nbsp; × &nbsp; IMPACT</div><div class="baseline-v10">Sécurisez vos risques. Construisez votre futur.</div><h1><span>Le jumeau numérique</span><span>du risque</span></h1><p class="tagline">Anticipez. Comprenez. Décidez.</p><p class="desc">LENAXIS transforme les données terrain en intelligence du risque pour des opérations plus sûres, plus résilientes et plus performantes.</p><div class="actions"><a class="btn btn-dark" href="#contact">Demander une démo <span class="arrow">→</span></a><button class="btn btn-light" data-open-video>▷&nbsp; Voir la vidéo (2 min)</button></div></div><div class="hero-art"><div class="capability-stack-v10" aria-label="Fonctionnalités LENAXIS">
 <div class="cap-v10"><span class="cap-icon">⌖</span><b>CARTOGRAPHIE<br>DES RISQUES</b></div>
 <div class="cap-v10"><span class="cap-icon">◉</span><b>VEILLE<br>(WATCH)</b></div>
 <div class="cap-v10"><span class="cap-icon">▤</span><b>CONFORMITÉ<br>(AUDIT)</b></div>
