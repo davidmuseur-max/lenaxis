@@ -1,0 +1,457 @@
+{
+  "core": {
+    "benefit": "Un référentiel commun pour comprendre les expositions et les dépendances de chaque site.",
+    "features": [
+      [
+        "Sites et entités",
+        "Regroupez les établissements, locaux et zones dans un référentiel géolocalisé."
+      ],
+      [
+        "Actifs et équipements",
+        "Rattachez les équipements, processus et flux à leur contexte d’exploitation."
+      ],
+      [
+        "Cartographie des expositions",
+        "Consultez les informations géographiques et réglementaires utiles à l’analyse du site."
+      ],
+      [
+        "Dépendances et supply chain",
+        "Documentez les liens entre sites, fournisseurs et fonctions critiques pour examiner les effets de cascade."
+      ],
+      [
+        "Scénarios de risque",
+        "Rapprochez les vulnérabilités internes des événements et menaces identifiés."
+      ],
+      [
+        "Historique du site",
+        "Retrouvez les audits, constats et informations nécessaires à une analyse suivie."
+      ]
+    ],
+    "example": "Un Risk Manager rassemble les informations d’un site, identifie ses équipements sensibles et examine les dépendances de production avant une visite ou une discussion avec son assureur.",
+    "related": [
+      "watch",
+      "matrix",
+      "audit",
+      "crisis"
+    ]
+  },
+  "watch": {
+    "benefit": "Une veille rapprochée de vos sites pour donner un contexte concret à chaque signal.",
+    "features": [
+      [
+        "Veille multi-sources",
+        "Rassemblez les évolutions réglementaires, événements industriels et informations contextuelles."
+      ],
+      [
+        "Filtrage sectoriel",
+        "Examinez les informations selon l’activité et les risques de l’organisation."
+      ],
+      [
+        "Lecture géographique",
+        "Rapprochez un événement des établissements potentiellement concernés."
+      ],
+      [
+        "Qualification des signaux",
+        "Identifiez le sujet, la source et le niveau d’attention nécessaire."
+      ],
+      [
+        "Alertes et suivi",
+        "Conservez une lecture organisée des alertes et de leur traitement."
+      ],
+      [
+        "Connexion au référentiel",
+        "Utilisez la veille pour enrichir la cartographie, l’évaluation et la préparation de crise."
+      ]
+    ],
+    "example": "Une alerte d’inondation ou un accident industriel proche est rapproché du portefeuille de sites. L’équipe vérifie l’exposition réelle et organise les mesures utiles.",
+    "related": [
+      "alerts",
+      "core",
+      "matrix",
+      "crisis"
+    ]
+  },
+  "audit": {
+    "benefit": "Des constats structurés et des preuves reliées aux actions de prévention.",
+    "features": [
+      [
+        "Questionnaires métier",
+        "Préparez les visites à partir de grilles sectorielles et de critères adaptés à la mission."
+      ],
+      [
+        "Constats et preuves terrain",
+        "Rattachez observations, photos et pièces justificatives au site et au point contrôlé."
+      ],
+      [
+        "Analyse des écarts",
+        "Organisez les constats et les risques pour faciliter la rédaction et la décision."
+      ],
+      [
+        "Plans d’action intégrés",
+        "Associez aux recommandations un responsable, une échéance et un suivi d’avancement."
+      ],
+      [
+        "Rapports de visite",
+        "Consolidez les résultats dans un support partageable avec les parties prenantes autorisées."
+      ],
+      [
+        "Continuité de la prévention",
+        "Retrouvez les écarts précédents pour préparer la prochaine visite et vérifier les actions."
+      ]
+    ],
+    "example": "Lors d’une visite incendie, l’auditeur documente le compartimentage, les moyens de protection et les contrôles. Les écarts donnent lieu à des recommandations suivies dans le même dossier.",
+    "related": [
+      "core",
+      "matrix",
+      "livestream",
+      "at"
+    ]
+  },
+  "matrix": {
+    "benefit": "Une évaluation explicite pour hiérarchiser les risques et expliquer les arbitrages.",
+    "features": [
+      [
+        "Probabilité et gravité",
+        "Positionnez les scénarios dans une matrice de criticité."
+      ],
+      [
+        "Modèles d’analyse",
+        "Structurez l’évaluation à l’aide des méthodes décrites dans le référentiel LENAXIS."
+      ],
+      [
+        "Critères et pondérations",
+        "Documentez les facteurs retenus pour rendre l’évaluation compréhensible."
+      ],
+      [
+        "Impacts multiples",
+        "Examinez les conséquences humaines, opérationnelles, financières et réglementaires."
+      ],
+      [
+        "Comparaison de scénarios",
+        "Comparez les niveaux d’exposition et les effets attendus des mesures de prévention."
+      ],
+      [
+        "Restitution décisionnelle",
+        "Présentez les priorités à la direction à partir du contexte du site et des constats."
+      ]
+    ],
+    "example": "Pour un même site, l’équipe compare les scénarios incendie, inondation et rupture fournisseur afin de choisir les mesures prioritaires.",
+    "related": [
+      "core",
+      "audit",
+      "stats",
+      "dashboard"
+    ]
+  },
+  "stats": {
+    "benefit": "Une lecture des tendances pour comparer les situations et éclairer la prévention.",
+    "features": [
+      [
+        "Tendances dans le temps",
+        "Suivez l’évolution des indicateurs sur la période disponible."
+      ],
+      [
+        "Comparaisons entre sites",
+        "Examinez les écarts au sein d’un périmètre homogène."
+      ],
+      [
+        "Lecture sectorielle",
+        "Rapprochez les constats du contexte métier et des données de référence disponibles."
+      ],
+      [
+        "Typologies de risques",
+        "Analysez les informations par famille de risques ou de constats."
+      ],
+      [
+        "Qualité des comparaisons",
+        "Gardez les périmètres, dates et volumes en vue pour interpréter les résultats."
+      ],
+      [
+        "Restitution des analyses",
+        "Utilisez les tendances dans les tableaux de bord et les échanges avec la direction."
+      ]
+    ],
+    "example": "Le responsable prévention examine les écarts récurrents entre établissements avant de lancer une campagne ciblée sur une même famille de risques.",
+    "related": [
+      "audit",
+      "matrix",
+      "dashboard",
+      "at"
+    ]
+  },
+  "alerts": {
+    "kind": "Fonction transversale · WATCH",
+    "benefit": "Une lecture organisée des événements qui appellent une vérification ou une action.",
+    "features": [
+      [
+        "Alertes contextualisées",
+        "Reliez les notifications aux risques et aux établissements concernés."
+      ],
+      [
+        "Source et événement",
+        "Retrouvez l’information à l’origine de l’alerte avant de décider."
+      ],
+      [
+        "Journal des alertes",
+        "Consultez les événements et leur historique."
+      ],
+      [
+        "Suite opérationnelle",
+        "Orientez l’alerte vers une vérification terrain, une mise à jour du dossier ou une gestion de crise."
+      ]
+    ],
+    "example": "L’équipe reçoit une information critique, vérifie la proximité et l’exposition du site, puis décide de la suite à donner.",
+    "related": [
+      "watch",
+      "core",
+      "audit",
+      "crisis"
+    ]
+  },
+  "livestream": {
+    "benefit": "L’expertise à distance reliée au dossier de risque et aux constats terrain.",
+    "features": [
+      [
+        "Vidéo terrain en direct",
+        "Un opérateur partage la situation avec un expert à distance."
+      ],
+      [
+        "Échange entre intervenants",
+        "Rapprochez les personnes sur place et les compétences nécessaires à la visite."
+      ],
+      [
+        "Annotation et guidage",
+        "Précisez les points à observer et guidez l’inspection."
+      ],
+      [
+        "Captures et observations",
+        "Capitalisez les éléments utiles au dossier de visite."
+      ],
+      [
+        "Lien avec l’audit",
+        "Replacez les observations dans la démarche d’évaluation et de prévention."
+      ],
+      [
+        "Retour d’expérience",
+        "Conservez les éléments utiles aux prochaines interventions et à la transmission des connaissances."
+      ]
+    ],
+    "example": "Un expert accompagne à distance un opérateur pour examiner un équipement sensible et préparer les constats à compléter dans AUDIT.",
+    "related": [
+      "audit",
+      "core",
+      "matrix",
+      "crisis"
+    ]
+  },
+  "crisis": {
+    "benefit": "Un contexte partagé pour coordonner les équipes et conserver la trace des décisions.",
+    "features": [
+      [
+        "Activation de la cellule",
+        "Rassemblez les intervenants dans un espace de gestion de crise."
+      ],
+      [
+        "Journal horodaté",
+        "Consignez les événements, décisions et actions au fil de la situation."
+      ],
+      [
+        "Rôles et coordination",
+        "Organisez les responsabilités et les tâches des intervenants."
+      ],
+      [
+        "Carte tactique",
+        "Replacez les informations opérationnelles dans le contexte géographique."
+      ],
+      [
+        "Plans et communications",
+        "Retrouvez les éléments de préparation, contacts et supports utiles à la réponse."
+      ],
+      [
+        "Retour d’expérience",
+        "Capitalisez les enseignements après l’événement pour améliorer la prévention."
+      ]
+    ],
+    "example": "Après un sinistre, le responsable coordonne les intervenants, suit les actions et consigne les décisions dans un journal commun.",
+    "related": [
+      "core",
+      "watch",
+      "audit",
+      "dashboard"
+    ]
+  },
+  "dashboard": {
+    "benefit": "Une vision consolidée pour passer des constats aux priorités de pilotage.",
+    "features": [
+      [
+        "Indicateurs de risque",
+        "Regroupez les indicateurs utiles à votre périmètre."
+      ],
+      [
+        "Vues par profil",
+        "Adaptez la lecture à la direction, au Risk Manager et aux équipes opérationnelles."
+      ],
+      [
+        "Consolidation multi-sites",
+        "Rapprochez les établissements et les entités dans une même vue."
+      ],
+      [
+        "Suivi de prévention",
+        "Observez l’avancement des audits et des actions."
+      ],
+      [
+        "Accès au contexte",
+        "Revenez aux informations qui expliquent un indicateur."
+      ],
+      [
+        "Reporting",
+        "Préparez des restitutions cohérentes pour les parties prenantes autorisées."
+      ]
+    ],
+    "example": "La direction examine les établissements les plus exposés et les actions en retard pour décider des moyens à engager.",
+    "related": [
+      "core",
+      "audit",
+      "stats",
+      "matrix"
+    ]
+  },
+  "flotte": {
+    "benefit": "La prévention du risque routier dans la même démarche que les autres risques de l’entreprise.",
+    "features": [
+      [
+        "Parc de véhicules",
+        "Organisez les informations du parc et de ses usages."
+      ],
+      [
+        "Conducteurs",
+        "Rassemblez les informations utiles au suivi des conducteurs."
+      ],
+      [
+        "Documents et contrôles",
+        "Suivez les pièces, contrôles et échéances liés aux véhicules."
+      ],
+      [
+        "Sinistres et incidents",
+        "Conservez une lecture des événements et de leurs conséquences."
+      ],
+      [
+        "Prévention routière",
+        "Rattachez les mesures de prévention aux situations identifiées."
+      ],
+      [
+        "Pilotage du risque",
+        "Rapprochez les informations de flotte de l’analyse et du reporting global."
+      ]
+    ],
+    "example": "Le gestionnaire de flotte rapproche les incidents, les échéances documentaires et les actions de prévention pour préparer sa revue du parc.",
+    "related": [
+      "audit",
+      "stats",
+      "dashboard",
+      "crisis"
+    ]
+  },
+  "at": {
+    "kind": "Fonction transversale · AUDIT, CORE, MATRIX",
+    "benefit": "Des événements documentés pour comprendre les causes et suivre la prévention.",
+    "features": [
+      [
+        "Accidents et incidents",
+        "Rassemblez les circonstances et les éléments disponibles dans le dossier."
+      ],
+      [
+        "Enquête et causes",
+        "Structurez l’analyse à partir des faits et des preuves recueillies."
+      ],
+      [
+        "Actions correctives",
+        "Rattachez les mesures retenues aux causes et aux risques identifiés."
+      ],
+      [
+        "Indicateurs de suivi",
+        "Examinez les tendances sur un périmètre et une période définis."
+      ]
+    ],
+    "example": "Après un accident du travail, l’équipe documente les circonstances, examine les causes et suit les mesures de prévention associées.",
+    "related": [
+      "audit",
+      "core",
+      "matrix",
+      "stats"
+    ]
+  },
+  "admin": {
+    "benefit": "Des droits et un cadre de travail adaptés à l’organisation et à ses intervenants.",
+    "features": [
+      [
+        "Utilisateurs et rôles",
+        "Organisez les profils et les accès selon les responsabilités."
+      ],
+      [
+        "Périmètres de travail",
+        "Définissez les informations accessibles aux intervenants autorisés."
+      ],
+      [
+        "Configuration des modules",
+        "Adaptez les paramètres et référentiels à l’usage de l’organisation."
+      ],
+      [
+        "Historique des actions",
+        "Disposez d’une trace des opérations réalisées dans la plateforme."
+      ],
+      [
+        "Organisation multi-entités",
+        "Structurez le travail des équipes et des filiales."
+      ],
+      [
+        "Intégrations",
+        "Étudiez les échanges nécessaires avec votre système d’information lors du cadrage du déploiement."
+      ]
+    ],
+    "example": "L’administrateur organise les accès d’un auditeur, d’un responsable de site et de la direction selon leurs missions respectives.",
+    "related": [
+      "core",
+      "audit",
+      "dashboard",
+      "lena"
+    ]
+  },
+  "lena": {
+    "kind": "Assistant transversal",
+    "benefit": "Interrogez les informations de risque pour préparer une décision, une visite ou un document.",
+    "features": [
+      [
+        "Questions en langage naturel",
+        "Décrivez votre besoin sans changer de méthode de travail."
+      ],
+      [
+        "Synthèse du contexte",
+        "Rassemblez les informations utiles issues du dossier et des modules accessibles."
+      ],
+      [
+        "Analyse documentaire",
+        "Exploitez les documents disponibles dans votre environnement autorisé."
+      ],
+      [
+        "Explication des risques",
+        "Demandez une lecture des expositions, constats et mesures de prévention."
+      ],
+      [
+        "Sources et points à confirmer",
+        "Distinguez les faits disponibles des informations à vérifier."
+      ],
+      [
+        "Préparation de l’action",
+        "Préparez les questions de visite, priorités et éléments d’un support de travail."
+      ]
+    ],
+    "example": "« Quels éléments dois-je vérifier avant la prochaine visite de ce site ? » LÉNA aide à préparer les contrôles à partir du contexte disponible.",
+    "related": [
+      "core",
+      "watch",
+      "audit",
+      "crisis"
+    ]
+  }
+}
